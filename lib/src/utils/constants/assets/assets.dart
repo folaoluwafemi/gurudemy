@@ -1,3 +1,5 @@
+part 'animated_assets.dart';
+
 part 'font_assets.dart';
 
 part 'icon_assets.dart';
