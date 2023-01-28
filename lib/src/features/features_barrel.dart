@@ -1,0 +1,1 @@
+export 'starter/starter_barrel.dart';
