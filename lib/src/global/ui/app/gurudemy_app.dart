@@ -8,6 +8,8 @@ class GurudemyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return AppWrapper(
       child: MaterialApp.router(
+        themeMode: ThemeMode.light,
+        theme: AppTheme.lightTheme,
         routerDelegate: AppRouter.router.routerDelegate,
         routeInformationProvider: AppRouter.router.routeInformationProvider,
         routeInformationParser: AppRouter.router.routeInformationParser,
